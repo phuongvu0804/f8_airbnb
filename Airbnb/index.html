@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d1937d473.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/grid-library.css">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <title>Airbnb</title>
+</head>
+<body>
+    <div class="header">
+        <div class="grid wide">
+            <!-- Header on PC & tablet starts-->
+            <div class="row navbar hide-on-mobile">
+                <div class="col l-3 navbar__logo-wrapper">
+                    <div class="row">
+                        <div class="col l-6 navbar__logo hide-on-tablet">
+                            <a href="/" class="navbar__logo-link">
+                                <svg class="navbar__logo-svg" width="102" height="32" fill="currentcolor" style="display: block;">
+                                    <path
+                                        d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"
+                                    ></path>
+                                </svg>                                                  
+                            </a>
+                        </div>
+                        <div class="col l-6 navbar__logo--tablet">
+                            <a href="/" class="navbar__logo-link">
+                                <svg class="navbar-logo-tablet__svg" width="30" height="32" fill="currentcolor" style="display: block;">
+                                    <path
+                                        d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-5 navbar__services hide-on-tablet">
+                    <ul class="row">
+                        <li class="col l-4 navbar__item">
+                            <a href="" class="navbar__item-link ">Places to stay
+                                <span class="navbar__item--active"></span>
+                            </a>
+                        </li>
+                        <li class="col l-3 navbar__item">
+                            <a href="" class="navbar__item-link">Experiences
+                                <span class="navbar__item--move"></span>
+                            </a>
+                        </li>
+                        <li class="col l-5 navbar__item">
+                            <a href="" class="navbar__item-link">Online experiences
+                                <span class="navbar__item--move"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 navbar__user">
+                    <ul class="row">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link navbar__item-link--active">
+                                <span class="">Become a host</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar__user-icon fas fa-globe"></i>
+                            </a>
+                        </li>
+                        <div class="navbar__item navbar__item-user">
+                            <label for="navbar__user-activate" class="navbar__user-btn">
+                                <i class="navbar__user-icon navbar__user-icon--subnav fas fa-bars"></i>
+                                <i class="navbar__user-icon navbar__user-icon--login fas fa-user"></i>
+                            </label>
+                            <input type="checkbox" class="navbar__user-input" id="navbar__user-activate" hidden>
+                            <div class="navbar__subnav">
+                                <ul class="subnav-user subnav-user-authen">
+                                    <li class="subnav-user__item subnav-user__item--active">
+                                        <a href="" class="subnav-user__link">Sign up</a>
+                                    </li>
+                                    <li class="subnav-user__item">
+                                        <a href="" class="subnav-user__link">Log in</a>
+                                    </li>
+                                </ul>
+                                <ul class="subnav-user subnav-user-host">
+                                    <li class="subnav-user__item">
+                                        <a href="" class="subnav-user__link">Host your home</a>
+                                    </li>
+                                    <li class="subnav-user__item">
+                                        <a href="" class="subnav-user__link">Host an experience</a>
+                                    </li>
+                                    <li class="subnav-user__item">
+                                        <a href="" class="subnav-user__link">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row hide-on-mobile">
+                <ul class="col l-0 m-9 c-0 navbar__services--tablet">
+                    <div class="row">
+                        <li class="col navbar__item">
+                            <a href="" class="navbar__item-link ">Places to stay
+                                <span class="navbar__item--active"></span>
+                            </a>
+                        </li>
+                        <li class="col navbar__item">
+                            <a href="" class="navbar__item-link">Experiences
+                                <span class="navbar__item--move"></span>
+                            </a>
+                        </li>
+                        <li class="col navbar__item">
+                            <a href="" class="navbar__item-link">Online experiences
+                                <span class="navbar__item--move"></span>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="row header__search hide-on-mobile">
+                <div class="header__search-wrapper">
+                    <div class="header__search-item">
+                        <label class="header__search-title" for="header__search-location">Location</label>
+                        <input class="header__search-input" id="header__search-location" type="text" placeholder="Where are you going?">
+                        <div class="header__search-separate"></div>
+                        <div class="header-search-popup-location">
+                            <span class="header-search-popup-location__title">GO ANYWHERE, ANYTIME</span>
+                            <button class="header-search-popup-location__btn">
+                                I'm flexible
+                                <i class="header-search-popup-location__btn-icon fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__search-item">
+                        <label class="header__search-title" for="header__search-checkin">Check in</label>
+                        <input class="header__search-input" id="header__search-checkin" type="text" placeholder="Add dates" onfocus="(this.type='date')">
+                        <div class="header__search-separate"></div>
+                    </div>
+                    <div class="header__search-item">
+                        <label class="header__search-title" for="header__search-checkout">Check out</label>
+                        <input class="header__search-input" id="header__search-checkout" type="text" placeholder="Add dates" onfocus="(this.type='date')">
+                        <div class="header__search-separate"></div>
+                    </div>
+                    <div class="header__search-item header__search-guest">
+                        <div class="header__search-item-guest">
+                            <p class="header__search-title">Guests</p>
+                            <p class="header__search-input">Add guests</p>
+                        </div>
+                        <div class="header-guest-popup">
+                            <div class="header-guest-popup__item">
+                                <div class="header-guest-popup__item-type">
+                                    <p class="header-guest-popup__item-type-name">Adults</p>
+                                    <p class="header-guest-popup__item-type-desc">Ages 13 or above</p>
+                                </div>
+                                <div class="header-guest-popup__item-number">
+                                    <button class="header-guest-popup__item-number-adjust header-guest-popup__item-number-adjust--disabled">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <span class="header-guest-popup__item-number-input">0</span>
+                                    <button class="header-guest-popup__item-number-adjust">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="header-guest-popup__item">
+                                <div class="header-guest-popup__item-type">
+                                    <p class="header-guest-popup__item-type-name">Children</p>
+                                    <p class="header-guest-popup__item-type-desc">Ages 2-12</p>
+                                </div>
+                                <div class="header-guest-popup__item-number">
+                                    <button class="header-guest-popup__item-number-adjust">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <span class="header-guest-popup__item-number-input">10</span>
+                                    <button class="header-guest-popup__item-number-adjust">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="header-guest-popup__item">
+                                <div class="header-guest-popup__item-type">
+                                    <p class="header-guest-popup__item-type-name">Infants</p>
+                                    <p class="header-guest-popup__item-type-desc">Under 2</p>
+                                </div>
+                                <div class="header-guest-popup__item-number">
+                                    <button class="header-guest-popup__item-number-adjust header-guest-popup__item-number-adjust--disabled">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <span class="header-guest-popup__item-number-input">0</span>
+                                    <button class="header-guest-popup__item-number-adjust">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="header-guest-popup__item">
+                                <div class="header-guest-popup__item-type">
+                                    <p class="header-guest-popup__item-type-name">Pets</p>
+                                    <a href="" class="header-guest-popup__item-type-desc">Bringing an assistance animal?</a>
+                                </div>
+                                <div class="header-guest-popup__item-number">
+                                    <button class="header-guest-popup__item-number-adjust">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <span class="header-guest-popup__item-number-input">100</span>
+                                    <button class="header-guest-popup__item-number-adjust header-guest-popup__item-number-adjust--disabled">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="header-guest-popup__note">
+                                If you're lucky enough to have more than 2 pets with you, be sure to let your host know.
+                            </p>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Header on PC & tablet ends -->
+        </div>
+        
+        <!-- Header on mobile starts -->
+        <label  for="header-search-mobile-input" class="header-mobile">
+            <div class="header-search-mobile">
+                <i class="header-search-mobile__icon fas fa-search"></i>
+                <p class="header-search-mobile__text">Where are you going?</p>
+            </div>
+        </label>
+        <input type="checkbox" class="header-input" id="header-search-mobile-input">
+        <!-- Modal for mobile search -->
+        <div class="modal modal--mobile">
+            <div class="modal__container">
+                <div class="modal-header">
+                    <div class="modal__header-search">
+                        <label  for="header-search-mobile-input" class="modal__header-back-btn">
+                            <i class="move-btn-icon fas fa-chevron-left"></i>
+                        </label>
+                        <input type="search" class="modal__header-search-input" placeholder="Where are you going?">
+                    </div>
+                </div>
+                <div class="modal__content-wrapper">
+                    <div class="modal__flexible">
+                        <span class="header-search-popup-location__title">GO ANYWHERE, ANYTIME</span>
+                        <button class="header-search-popup-location__btn">
+                            I'm flexible
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="modal__recommendation">
+                        <p class="modal__recommendation-text">getaways near you</p>
+                        <ul class="modal-recommendation__list">
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="	https://a0.muscache.com/im/pictures/aff9e173-b551-44e4-80f3-bd9b9d632f8b.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Tampere</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/aff9e173-b551-44e4-80f3-bd9b9d632f8b.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Tampere</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/3a7b8005-28b8-48b8-8efa-0a6a00f7d5d8.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Turku</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/2058d3d0-fba8-42f0-ba61-489b09a61a3a.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Suomi</p>
+                                        <p class="modal-recommendation__content-text">7.5 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/6a4bb597-0944-480b-94cc-b183c724f612.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Jyvaskylä</p>
+                                        <p class="modal-recommendation__content-text">3.5 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/1a653f75-87bd-41f0-91b5-f9f2c3194984.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Kuopip</p>
+                                        <p class="modal-recommendation__content-text">5 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/1bb8b6ff-17ec-4f01-96df-27d0ba265b16.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Lahti</p>
+                                        <p class="modal-recommendation__content-text">1.5 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/a1617dd0-7140-4c64-814f-384d174a78be.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Hämeenlinna</p>
+                                        <p class="modal-recommendation__content-text">1 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/a1617dd0-7140-4c64-814f-384d174a78be.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Hanko</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="	https://a0.muscache.com/im/pictures/aff9e173-b551-44e4-80f3-bd9b9d632f8b.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Tampere</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-recommendation__item">
+                                <a href="" class="modal-recommendation__link">
+                                    <div class="modal-recommendation__pic">
+                                        <img src="https://a0.muscache.com/im/pictures/aff9e173-b551-44e4-80f3-bd9b9d632f8b.jpg?im_w=240&im_q=lowq" alt="Landscape's drawing" class="modal-recommendation__img">
+                                    </div>
+                                    <div class="modal-recommendation__content">
+                                        <p class="modal-recommendation__content-title">Tampere</p>
+                                        <p class="modal-recommendation__content-text">2 hour drive</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="main">
+        <div class="flexible black-background padding-bottom padding-bottom-tablet-m">
+            <div class="grid wide ful-width-tablet">
+                <div class="banner">
+                    <span class="banner__text">Not sure where to go? Perfect.</span>
+                    <a href="../Airbnb__subpage_stay/index.html" class="banner__search-btn">
+                        <span class="banner__search-btn-text">I'm flexible</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="black-white-background padding-bottom padding-bottom-tablet-m">
+            <div class="grid wide">
+                <div class="shop">
+                    <div class="shop__desc">
+                        <span>Introducing</span>  
+                        <h2 class="header-size text-center">
+                            <br> Airbnb <br> gift cards
+                        </h2>
+                        <button class="shop__btn">Shop now</button>
+                    </div>
+                    <div class="shop__img">
+                        <img src="https://a0.muscache.com/im/pictures/8e4b6605-6ced-4822-9dbe-1d5a6fa0754b.jpg?im_w=1920" alt="Airbnb gift card" class="shop__img-gift-card">
+                        <img src="https://a0.muscache.com/im/pictures/aed25c7b-dfd5-45e2-aec9-0eb4d9a21e08.jpg?im_w=1920" alt="Airbnb gift card" class="shop__img-gift-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid wide">
+            <div class="inspiration padding-bottom padding-bottom-tablet-m">
+                <div class="inspiration__header">
+                    <h2 class="home-section__title">Inspiration for your next trip</h2>
+                    <div class="move-btns hide-on-pc">
+                        <button class="move-btn move-btn--disabled">
+                            <i class="move-btn-icon fas fa-chevron-left"></i>
+                        </button>
+                        <button class="move-btn">
+                            <i class="move-btn-icon fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <ul class="row inspiration__list">
+                    <li class="inspiration__item col l-3 m-3-2 c-6-6">
+                        <a href="" class="inspiration__link">
+                            <img src="https://a0.muscache.com/im/pictures/b4e025ab-b353-41fb-814d-5e4f80571186.jpg?im_w=320" alt="Drawing of Helsinki" class="inspiration__img">
+                            <div class="inspiration__content">
+                                <h3 class="inspiration__content-name">Helsinki</h3>
+                                <p class="inspiration__content-desc">1 kilometer away</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="inspiration__item col l-3 m-3-2 c-6-6">
+                        <a href="" class="inspiration__link">
+                            <img src="https://a0.muscache.com/im/pictures/a433b4d0-8183-4523-b4c5-99b81c5729c1.jpg?im_w=320" alt="Drawing of Tampere" class="inspiration__img">
+                            <div class="inspiration__content">
+                                <h3 class="inspiration__content-name">Tampere</h3>
+                                <p class="inspiration__content-desc">160 kilometers away</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="inspiration__item col l-3 m-3-2 c-6-6">
+                        <a href="" class="inspiration__link">
+                            <img src="https://a0.muscache.com/im/pictures/68ef0c20-321d-42c0-beb4-13bce3e258a2.jpg?im_w=320" alt="Drawing of Turku" class="inspiration__img">
+                            <div class="inspiration__content">
+                                <h3 class="inspiration__content-name">Turku</h3>
+                                <p class="inspiration__content-desc">150 kilometers away</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="inspiration__item col l-3 m-3-2 c-6-6">
+                        <a href="" class="inspiration__link">
+                            <img src="https://a0.muscache.com/im/pictures/f68325f9-4661-4452-b15e-fce0da4fb2aa.jpg?im_w=320" alt="Drawing of Vantaa" class="inspiration__img">
+                            <div class="inspiration__content">
+                                <h3 class="inspiration__content-name">Vantaa</h3>
+                                <p class="inspiration__content-desc">14 kilometers away</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="experiences padding-bottom padding-bottom-tablet-m">
+                <h2 class="home-section__title">Discover Airbnb Experiences</h2>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12 experiences-card">
+                            <img src="https://a0.muscache.com/im/pictures/b2f98185-f3bf-40db-ba8d-da0bceeccc65.jpg?im_w=720" alt="Exploring cave" class="home-section__img">
+                            <div class="experiences-card__content">
+                                <h3 class="experiences-card__title">
+                                    Things to do <br> on your trip
+                                </h3>
+                                <button class="more-btn">Experiences</button>
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-6 c-12 experiences-card">
+                            <img src="https://a0.muscache.com/im/pictures/cae7ae9a-d069-4c6a-9267-795643472df1.jpg?im_w=720" alt="Home hosting" class="home-section__img">
+                            <div class="experiences-card__content">
+                                <h3 class="experiences-card__title">
+                                    Things to do <br> from home
+                                </h3>
+                                <button class="more-btn">Online Experiences</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="questions padding-bottom padding-bottom-tablet-m">
+            <div class="grid wide ful-width-tablet">
+                <div class="questions__content">
+                    <h2 class="header-size">
+                        Questions<br>about<br>hosting?
+                    </h2>
+                    <div class="questions__content-btn">
+                        <button class="more-btn">Ask a Superhost</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid wide">
+            <div class="destinations padding-bottom padding-bottom-tablet-m">
+                <h2 class="destinations__title">Inspiration for future getaways</h2>
+                <nav class="home-page-category">
+                    <ul class="home-page__category-list">
+                        <li class="home-page__category-item">Destinations for arts & culture</li>
+                        <li class="home-page__category-item active">Destinations for outdoor adventure</li>
+                        <li class="home-page__category-item">Mountain cabins</li>
+                        <li class="home-page__category-item">Beach destinations</li>
+                        <li class="home-page__category-item">Popular destinations</li>
+                        <li class="home-page__category-item">Unique Stays</li>
+                        <div class="home-page-category__line"></div>
+                    </ul>  
+                    <div class="forward-sign hide-on-pc ">
+                        <i class="move-btn-icon fas fa-chevron-right"></i>
+                    </div>
+                </nav>
+                <div class="grid wide">
+                    <div class="tab-panel destinations__list-culture">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Phoenix</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">San Francisco</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">California</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Keswick</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">England</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Hot Springs</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arkansas</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Barcelona</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Catalonia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">London</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">England</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Los Angeles</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">California</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Prague</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Czechia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Scarborough</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">England</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">San Diego</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">California</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Washington</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">District of Columbia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--show">Show more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-panel destinations__list-adventure">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Lake Martin</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alabama</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Lake Havasu City</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Pinetop-Lakeside</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Banff</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alberta</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Lake Powell</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">London</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Nerja</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Andalucía</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">North Rim</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Dinner Plain</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Greer</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Payson</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--show">Show more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-panel destinations__list-mountain">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Mentone</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alabama</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Stone Mountain</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Georgia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Blowing Rock</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">North Carolina</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Sedona</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Island Park</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Idaho</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Boone</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">North Carolina</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Helen</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Georgia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Blue Mountains</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">New South Wales</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Hochatown</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Oklahoma</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Pine Mountain</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Georgia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Asheville</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">North Carolina</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--show">Show more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-panel active destinations__list-beach">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Dauphin Islands</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alabama</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Crescent Head</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Melbourne Beach</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Fort Morgan</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alabama</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Gerringong</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Moonta Bay</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Gulf Shores</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alabama</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Hamilton Island</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Ocean Grove</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Burny Island</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Lancelin</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--show">Show more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-panel destinations__list-popular">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Canmore</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Alberta</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Prescott</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Mountain View</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arkansas</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Benalmadena</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Andalusia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Scottsdale</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Devonport/a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Marbella</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Andalusia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Tucson</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arizona</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Mallacoota</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Australia</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Mijas</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Andalusia</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Jasper</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">Arkansas</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--show">Show more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-panel destinations__list-unique">
+                        <div class="row">
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Cabins</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Beach Houses</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Treehouses</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Campers and RVs</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Glamping</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Lakehouses</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                                </li>
+                            </ul>
+                            <ul class="destinations__list col l-3 m-3 c-6">
+                                <li class="destinations__list-item">
+                                    <a href="" class="destinations__list-link destinations__list-link--city">Tiny Houses</a>
+                                    <a href="" class="destinations__list-link destinations__list-link--country">United States</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="grid wide">
+            <div class="infor row">
+                <div class="col l-3 m-12 c-12">
+                    <div class="row">
+                        <h4 class="col infor__title">Support</h4>
+                    </div>
+                    <div class="row footer__category padding-bottom-tablet-s">
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Help Center</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Safety information</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Cancellation options</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Our COVID-19 Response</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Supporting people with disabilities</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Report a neighborhood concern</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="row">
+                        <h4 class="col infor__title">
+                            Community
+                        </h4>
+                    </div>
+                    <div class="row footer__category padding-bottom-tablet-s">
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Airbnb.org: disaster relief housing</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Support Afghan refugees</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Celebrating diversity & belonging</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Combating discrimination</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="row">
+                        <h4 class="col infor__title">Hosting</h4>
+                    </div> 
+                    <div class="row footer__category padding-bottom-tablet-s">
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Try hosting</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">AirCover: protection for Hosts</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Explore hosting resources</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Explore hosting resources</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Visit our community forum</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">How to host responsibly</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-12 c-12">
+                    <div class="row">
+                        <h4 class="col infor__title">About</h4>
+                    </div>
+                    <div class="row footer__category padding-bottom-tablet-s">
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Newsroom</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Learn about new features</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Letter from our founders</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Careers</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Investors</a>
+                        <a href="" class="footer__category-item col l-12 m-4 c-12">Airbnb Luxe</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="footer-wrapper row">
+                <div class="footer__copyright col l-4 m-12 c-12">
+                    <div class="row">
+                        <span class="col l-5 m-12 c-12">© 2022 Airbnb, Inc.</span>
+                        <div class="col l-7 m-12 c-12 footer__copyright-list">
+                            <div class="row">
+                                <div class="footer__copyright-item ">
+                                    <i class="footer__copyright-icon hide-on-tablet-and-mobile fas fa-circle"></i>
+                                    <a href="" class="footer__copyright-link">Privacy</a>
+                                </div>
+                                <div class="footer__copyright-item ">
+                                    <i class="footer__copyright-icon hide-on-tablet-and-mobile fas fa-circle"></i>
+                                    <a href="" class="footer__copyright-link">Terms</a>
+                                </div>
+                                <div class="footer__copyright-item ">
+                                    <i class="footer__copyright-icon hide-on-tablet-and-mobile fas fa-circle"></i>
+                                    <a href="" class="footer__copyright-link">Sitemap</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__user col l-4 m-12 c-12">
+                    <div class="row">
+                        <div class="footer__user-setting col l-7 m-3 c-12">
+                            <div class="row">
+                                <a href="" class="footer-user-setting__item">
+                                    <i class="footer-user-setting__item-icon fas fa-globe"></i>
+                                    <span class="footer-user-setting__item-name">English</span>
+                                </a>
+                                <a href="" class="footer-user-setting__item">
+                                    <i class="footer-user-setting__item-icon fas fa-euro-sign"></i>
+                                    <span class="footer-user-setting__item-name">EUR</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__user-social col l-5 m-3 c-0">
+                            <div class="row">
+                                <a href="" class="col l-3 m-3 c-3 footer__user-social-link">
+                                    <i class="footer__user-social-icon fab fa-facebook-f"></i>
+                                </a>
+                                <a href="" class="col l-3 m-3 c-3 footer__user-social-link">
+                                    <i class="footer__user-social-icon fab fa-twitter"></i>
+                                </a>
+                                <a href="" class="col l-3 m-3 c-3 footer__user-social-link">
+                                    <i class="footer__user-social-icon fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+
+    </div>
+    <script>
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+
+        const tabs = $$('.home-page__category-item')
+        const panels = $$('.tab-panel')
+
+        const tabActive =  $(['.home-page__category-item.active.active'])
+        const line = $('.home-page-category__line')
+        
+        line.style.left = tabActive.offsetLeft + 'px'
+        line.style.width = tabActive.offsetWidth + 'px'
+        
+
+        tabs.forEach( (tab, index) => {
+            const panel = panels[index]
+
+            tab.onclick = function () {
+                $('.home-page__category-item.active').classList.remove('active')
+                $('.tab-panel.active').classList.remove('active')
+                
+                line.style.left = this.offsetLeft + 'px'
+                line.style.width = this.offsetWidth + 'px'
+
+                this.classList.add('active')
+                panel.classList.add('active')
+            }
+        })
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+:root {
+    --white-color: #fff;
+    --deep-black-color: #000;
+    --black-color: #222;
+    --text-color: #484848;
+    --light-text-color: #717171;
+    --border-color: #e6e6e6; 
+
+    --navbar-height: 80px;
+    --header-search-item-height: 66px;
+    --banner-height: 600px;
+    --shop-height: 600px;
+
+    --home-section-border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    font-family: 'DM Sans', sans-serif;  
+}
+
+.hide-on-pc {
+    display: none;
+}
+
+.no-flex {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-size {
+    font-size: 7rem;
+    line-height: 7.8rem;
+}
+
+.black-background {
+    background-color: var(--deep-black-color);
+}
+
+.black-white-background {
+    background-image: linear-gradient(to bottom, var(--deep-black-color) 0%, var(--deep-black-color) 50%, var(--white-color) 50%, var(--white-color) 100%);
+
+}
+
+.white-background {
+    background-color: var(--white-color);
+}
+
+.padding-bottom {
+    padding-bottom: 90px;
+}
+
+
+.home-section__title {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    color: var(--black-color);
+}
+
+.home-section__img {
+    width: 100%;
+    border-radius: var(--home-section-border-radius);
+}
+
+/* btn */
+
+.more-btn {
+    padding: 10px 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: var(--white-color);
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.more-btn:hover {
+    background-color: #ebebeb;
+}
+
+.move-btn-icon {
+    font-weight: 550;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.move-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+    background-color: transparent;
+    color: var(--black-color);
+    font-weight: 400;
+}
+
+.move-btn + .move-btn {
+    margin-left: 8px;
+}
+
+.move-btn--disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.forward-sign {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--white-color);
+    box-shadow: -3px 0px 10px var(--white-color);
+    -moz-box-shadow: -3px 0px 10px var(--white-color);
+    -webkit-box-shadow: -3px 0px 10px var(--white-color);
+    padding: 8px 5px 0;
+}
+
+/* Category */
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.destinations > .home-page-category {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.home-page__category-list {
+    --margin-left-right: -12px;
+    margin-left: var(--margin-left-right);
+    position: relative;
+}
+
+.home-page-category__separate {
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    right: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.home-page-category__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 4px;
+    background: var(--black-color);
+    transition: all 0.2s ease;
+}
+
+.home-page__category-item {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light-text-color);
+    border-radius: 6px;
+    padding: 8px calc( 0px - var(--margin-left-right) );
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.home-page__category-item:hover {
+    background: #f7f7f7;
+    color: var(--black-color);
+}
+
+/* Subnav */
+.navbar__subnav {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    z-index: 1;
+    border-radius: var(--home-section-border-radius);
+    display: none;
+    box-shadow: -1px 1px 2px rgb(0 0 0 / 10%);
+}
+
+.navbar__subnav::before {
+    content: "";
+    position: absolute;
+    top: calc( 0px - 16px);
+    right: 0;
+    height: 50px;
+    width: 34%;
+    background-color: transparent;
+}
+/* Modal */
+/* Modal activation */
+.header-input {
+    display: none;
+}
+
+.header-input:checked ~ .modal.modal--mobile{
+    display: block;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--white-color);
+}
+
